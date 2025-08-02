@@ -1,36 +1,14 @@
-Aquí tienes un README único, breve y claro:
+# Currículum Digital - Christian Javier Mejía Montesdeoca
 
----
+Estudiante: Christian Javier Mejía Montesdeoca  
+Carrera: Ingeniería de Software - 7mo Semestre  
+Edad: 34 años  
+Universidad: UISEK
 
-# README
+Laboratorio 8. Aplicación de diseño inclusivo y accesibilidad a Portafolio Web Responsivo
 
-## Error al usar WebGazer.js sin servidor local
+## Enlaces
 
-Si al abrir tu archivo HTML ves este mensaje:
-
-```
-WebGazer works only over https. If you are doing local development, you need to run a local server.
-```
-
-Es porque WebGazer necesita HTTPS o un servidor local para acceder a la cámara.
-
-### Cómo solucionarlo
-
-1. Abre una terminal en la carpeta del proyecto.
-2. Ejecuta un servidor local, por ejemplo con Python:
-
-```bash
-python -m http.server 8000
-```
-
-3. En tu navegador abre:
-
-```
-http://localhost:8000/
-```
-
-Esto permitirá que WebGazer pida permiso para la cámara y funcione correctamente.
-
----
-
-Si quieres te ayudo con otros comandos o servidores.
+- [Prototipo en Figma]"https://www.figma.com/design/kAb3S75KvTHaic0pcZLkVw/Untitled?node-id=0-1&t=6VPM87HSwllqn6B2-1"
+- [Sitio publicado en GitHub Pages]"https://bootstrapbuildspace.sfo2.cdn.digitaloceanspaces.com//CxTmkKMtuqiM/vxcSlYSccpRM/bootstrap.css"
+- [Repositorio en GitHub] --> Publicado
