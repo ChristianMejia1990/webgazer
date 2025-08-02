@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV - Christian Mejía</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="bootstrap/_variables.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+
+  
+</head>
+<body>
+
+  <header role="banner">
+    <img src="img/foto.jpg" alt="Christian Javier Mejía Montesdeoca con fondo neutro"
+         class="rounded-circle" width="150" height="150" tabindex="0" />
+    <h1>Christian Javier Mejía Montesdeoca</h1>
+    <p>Estudiante de Ingeniería de Software - UISEK</p>
+  </header>
+
+  <main role="main">
+    <section aria-labelledby="contacto-titulo">
+      <h2 id="contacto-titulo">Formulario de Contacto</h2>
+      <form aria-describedby="instrucciones-contacto" novalidate>
+        <p id="instrucciones-contacto" class="visually-hidden">
+          Todos los campos marcados con asterisco son obligatorios.
+        </p>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre completo <span aria-hidden="true">*</span></label>
+          <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required aria-required="true" />
+        </div>
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo electrónico <span aria-hidden="true">*</span></label>
+          <input type="email" class="form-control" id="correo" name="correo" placeholder="nombre@email.com" required aria-required="true" />
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje <span aria-hidden="true">*</span></label>
+          <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required aria-required="true"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" aria-label="Enviar formulario de contacto">Enviar mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>© 2025 Christian Mejía - Currículum Digital</p>
+  </footer>
+
+  <!-- Botones para seguimiento -->
+  <div style="position:fixed;bottom:10px;right:10px;z-index:10001;">
+        <button id="stopTracking" class="btn btn-danger">Detener y Mostrar Mapa</button>
+  </div>
+
+  <!-- Contenedor del mapa de calor -->
+  <div id="heatmapContainer"></div>
+
+  <!-- Librerías -->
+  <script src="https://webgazer.cs.brown.edu/webgazer.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/heatmap.js/2.0.5/heatmap.min.js"></script>
+
+  <!-- Script -->
+  <script src="js/tracking.js"></script>
+</body>
+</html>
